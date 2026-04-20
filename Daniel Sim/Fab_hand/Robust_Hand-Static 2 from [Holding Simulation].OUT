@@ -1,0 +1,385 @@
+
+****************************************************************
+****************************************************************
+**                                                            **
+**                                                            **
+**        CCC     OO      SSS    M    M     OO      SSS       **
+**       C       O  O    S       MM  MM    O  O    S          **
+**       C       O  O     SS     M MM M    O  O     SS        **
+**       C       O  O       S    M    M    O  O       S       **
+**        CCC     OO     SSS     M    M     OO     SSS        **
+**                                                            **
+**                                                            **
+**             SOLIDWORKS Simulation 2025 - SP5               **
+**                 Simulation Premium Package                 **
+**           Distributed By: SOLIDWORKS Corporation           **
+**               21255 Burbank Blvd Suite 400                 **
+**               Woodland Hills, California 91367             **
+**               Telephone Number (774)556-3100               **
+**         Copyright 1988-2018 SOLIDWORKS Corporation         **
+**                                                            **
+****************************************************************
+****************************************************************
+
+Problem name: C:\Users\ddkli\Documents\GitHub\cad\Andy
+Date        : 02/26/2026     Time:   20:00:40
+
+
+ SYSTEM OF UNITS:
+ International System of Units, SI, is used for all input/output data.
+ Common Quantities:
+ Length:meter, Mass:kilogram, Time:second, Temperature:kelvin
+ Force:newton, Pressure also stress:pascal, Energy:joule, Power:watt
+
+ NUMBER OF PHYSICAL CORES USED TO RUN SIMULATION:  4
+
+  C O N T R O L  I N F O R M A T I O N                  
+
+   CURRENT RESTRAINT SET . . . . . . . . . . . (BC_SET)  =           1
+
+   NUMBER OF LOAD CASES  . . . . . . . . . . . (NLCASE)  =           1
+   SOLUTION MODE . . . . . . . . . . . . . . . (MODEX)   =           0
+      EQ. 0, STATIC ANALYSIS                              
+      EQ. 1, BUCKLING ANALYSIS                            
+      EQ. 2, DYNAMIC ANALYSIS                             
+      EQ. 3, DROP TEST                                    
+
+   SOLVER TYPE . . . . . . . . . . . . . . . . .(ISOL)   =           5
+      EQ. 0, DIRECT SPARSE SOLVER                         
+      EQ. 1, DIRECT SKYLINE SOLVER                        
+      EQ. 2, ITERATIVE SOLVER                             
+      EQ. 3, EXPLICIT INTEGRATION                         
+      EQ. 4, LARGE PROBLEM DIRECT SPARSE SOLVER           
+      EQ. 5, INTEL DIRECT SPARSE SOLVER                   
+      EQ. 6, INTEL NETWORK SPARSE SOLVER                  
+      EQ. 7, SINGULAR VALUE DECOMPOSTION (SVD)            
+
+   THERMAL LOADING FLAG . . . . . . . . . . . .(ITHERM)  =           0
+      EQ. 0, NO THERMAL EFFECTS CONSIDERED                
+      EQ. 1, ADD TEMPERATURE EFFECT                       
+   GRAVITY LOADING FLAG . . . . . . . . . . . .(IGRAV)   =           0
+      EQ. 0, NO GRAVITY LOADING CONSIDERED                
+      EQ. 1, ADD GRAVITY LOADING EFFECT                   
+   CENTRIFUGAL LOADING FLAG . . . . . . . . . .(ICNTRF)  =           0
+      EQ. 0, NO CENTRIFUGAL LOADING CONSIDERED            
+      EQ. 1, ADD CENTRIFUGAL LOADING EFFECT               
+   IN-PLANE STIFFENING FLAG . . . . . . . . . .(INPLN)   =           0
+      EQ. 0, NO IN-PLANE EFFECTS CONSIDERED               
+      EQ. 1, IN-PLANE EFFECTS CONSIDERED                  
+   SOFT SPRING ADDITION FLAG . . . . . . . . . (ISOFT)   =           0
+      EQ. 0, NO SOFT SPRING OPTION                        
+      EQ. 1, SOFT SPRING ADDED                            
+
+   SAVE DECOMPOSED STIFFNESS MATRIX FLAG . . . (ISAVK)   =           0
+      EQ. 0, DO NOT SAVE DECOMPOSED K                     
+      EQ. 1, SAVE DECOMPOSED K                            
+   FORM STIFFNESS MATRIX FLAG . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, FORM STIFFNESS MATRIX                        
+      EQ. 1, USE EXISTING DECOMPOSED STIFFNESS MATRIX     
+
+   SPIN SOFTENING FLAG . . . . . . . . . . . . (ISPIN)   =           0
+      EQ. 0, NO SPIN SOFTENING EFFECTS CONSIDERED         
+      EQ. 1, SPIN SOFTENING EFFECTS CONSIDERED            
+   INERTIA RELIEF FLAG  . . . . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, NO INERITA RELIEF EFFECTS CONSIDERED         
+      EQ. 1, INERITA RELIEF EFFECTS CONSIDERED            
+   RIGID CONNECTIONS FLAG  . . . . . . . . . . (IRIGID)  =           0
+      EQ. 0, HINGE CONNECTIONS BETWEEN SOLIDS & SHELLS    
+      EQ. 1, RIGID CONNECTIONS BETWEEN SOLIDS & SHELLS    
+
+
+  T O T A L  S Y S T E M  D A T A                        
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =      153414
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =         120
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =       35552
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       51176
+
+  I N T E R A C T I O N  D A T A                         
+   SURFACE-TO-SURFACE BONDING ALGORITHM . . . .(INTRBALG)=           1
+      EQ. 0, STANDARD                                     
+      EQ. 1, ADVANCED                                     
+   SURFACE-TO-SURFACE CONTACT ALGORITHM . . . .(INTRCALG)=           1
+      EQ. 0, STANDARD                                     
+      EQ. 1, ADVANCED                                     
+
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     5943214
+   NUMBER OF PARTS  . . . . . . . . . . . . .  (NPARTS)  =          14
+
+
+
+
+  S O L U T I O N   T I M E   l O G   (In Second)
+
+  Input Phase and Contact/Bond/Connector set up .......=    3.0
+  Stiffness + Contact + Connectors Computation  .......=    3.6
+  SVD Solver ..........................................=    0.0
+  Re-organization of Modeshapes .......................=    0.0
+
+  TOTAL SOLUTION ......................................=    6.7
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+  STATUS OF THERMAL EFFECTS FOR THIS LOAD CASE:
+  ---------------------------------------------
+
+    - Thermal flag is off (no thermal effect)
+
+
+
+  S O L U T I O N   T I M E   L O G   I N   S E C
+            FOR PROBLEM
+     TIME FOR INPUT PHASE  . . . . . . . . . . . . . . =       3
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       7
+     TIME FOR INTEL DIRECT SPARSE SOLVER . . . . . . . =       3
+
+     TIME FOR AL CONTACT OPERATIONS (Prep) . . . . . . =       0
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       1
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       1
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       3
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       2
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       5
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       3
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Prep) . . . .=       2
+     TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Decomp) . . .=       5
+     TIME FOR AL CONTACT OPERATIONS (Force) . . . . . .=       0
+     TIME FOR INTEL DIRECT SPARSE SOLVER (Back sub) . .=       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     ***** CONTACT ITERATION NUMBER ***** . . . . =       4
+     TIME FOR AL CONTACT OPERATIONS (Multiplier) . . . =       0
+     TIME FOR AL CONTACT OPERATIONS (Convrg check) . . =       0
+
+     TIME FOR AL CONTACT OPERATIONS (Update) . . . . . =       0
+
+   FORCES ON THE ACTIVE CONTACT ELEMENT(S)
+   ELEMENT   NODE   TARGET      FX           FY           FZ       NORMAL FORCE
+   34923    28721       58  -0.3086E-03  -0.2559E+01  -0.2336E+01   0.3465E+01
+   34923    28560       58  -0.3891E-03  -0.3227E+01  -0.2945E+01   0.4369E+01
+   34923    28557       58  -0.1376E-03  -0.1141E+01  -0.1042E+01   0.1545E+01
+   34923    34226       58   0.8784E-03   0.7285E+01   0.6648E+01   0.9862E+01
+   34923    33551       58   0.1065E-02   0.8836E+01   0.8064E+01   0.1196E+02
+   34923    34224       58   0.2627E-02   0.2179E+02   0.1989E+02   0.2950E+02
+   34995    28706        3   0.8116E-03  -0.2611E+01  -0.2372E+01   0.3528E+01
+   34995    28556        3   0.3269E-03  -0.1107E+01  -0.9973E+00   0.1490E+01
+   34995    28553        3   0.1064E-02  -0.3474E+01  -0.3147E+01   0.4687E+01
+   34995    34012        3  -0.1176E-01   0.3857E+02   0.3492E+02   0.5203E+02
+   34995    35073        3  -0.2526E-02   0.8226E+01   0.7456E+01   0.1110E+02
+   34995    35395        3  -0.2258E-02   0.7388E+01   0.6691E+01   0.9968E+01
+   TOTAL                    -0.1060E-01   0.7798E+02   0.7083E+02   0.1435E+03
+
+   TOTAL NUMBER OF ACTIVE CONTACT ELEMENT(S) =     2
+
+     TIME FOR AL CONTACT OPERATIONS (Results) . . . . .=       0
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =      Infinity
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE     43544         8893         8809            1            1            1
+  MIN.  -1.84268E-05 -6.51874E-06 -5.72790E-06   0.0000       0.0000       0.0000    
+
+  NODE     45899        28559        17454        50946        50946        50946
+  MAX.   6.98508E-08  1.53751E-05  1.55679E-05   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE     17453
+  MAX.   2.06572E-05
+
+
+
+
+********************************************************************************
+         R E A C T I O N   F O R C E   F O R   LOAD CASE NO.  1
+********************************************************************************
+
+    NODE CSYS    Fx         Fy         Fz         Mx         My         Mz
+  
+  
+ **** Local absolute loads values for pin number:          10 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):    3.726495          60.96924    
+ Moments(torque,bending):     7.8438644E-13     2.5588391E-02
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):    4.866263          58.57059    
+ Moments(torque,bending):     1.4370257E-12     0.3133330    
+  
+ Pin Joint Number            3
+ Forces (axial,transverse):    4.866263          58.57059    
+ Moments(torque,bending):     6.3782150E-13     6.7628667E-02
+  
+  
+  
+ **** Local absolute loads values for pin number:          11 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):    4.018118          39.77947    
+ Moments(torque,bending):     1.3929445E-13     1.1670141E-02
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):    3.442544          40.10647    
+ Moments(torque,bending):     6.2160216E-12     0.1665439    
+  
+ Pin Joint Number            3
+ Forces (axial,transverse):    3.442544          40.10647    
+ Moments(torque,bending):     1.4753637E-13     1.7278302E-02
+  
+  
+  
+ **** Local absolute loads values for pin number:          12 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):   0.8714998          60.28954    
+ Moments(torque,bending):     1.5559435E-14     9.9369986E-03
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):   0.8714998          60.28954    
+ Moments(torque,bending):     1.5938570E-12     0.2788303    
+  
+ Pin Joint Number            3
+ Forces (axial,transverse):   0.2959251          51.66772    
+ Moments(torque,bending):     6.8949244E-15     1.9943512E-03
+  
+  
+  
+ **** Local absolute loads values for pin number:          13 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):    1.715343          11.52033    
+ Moments(torque,bending):     6.3463433E-13     1.6308669E-03
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):    1.715343          11.52033    
+ Moments(torque,bending):     3.4956651E-13     3.6173612E-02
+  
+  
+  
+ **** Local absolute loads values for pin number:          14 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):    1.715343          11.52033    
+ Moments(torque,bending):     3.5112410E-13     2.9660802E-02
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):    1.715343          11.52033    
+ Moments(torque,bending):     7.6053400E-13     6.2560573E-02
+  
+  
+  
+ **** Local absolute loads values for pin number:          15 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):    1.912622          42.58205    
+ Moments(torque,bending):     3.3623258E-12     5.6111799E-03
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):    1.912622          42.58205    
+ Moments(torque,bending):     1.3769376E-12     9.6427947E-02
+  
+ Pin Joint Number            3
+ Forces (axial,transverse):    2.488197          37.36465    
+ Moments(torque,bending):     3.3391462E-12     4.5163170E-03
+  
+  
+  
+ **** Local absolute loads values for pin number:          16 ****
+ Pin Joint Number            1
+ Forces (axial,transverse):    1.704740          136.8163    
+ Moments(torque,bending):     5.1192275E-12      1.290147    
+  
+ Pin Joint Number            2
+ Forces (axial,transverse):    1.704740          136.8163    
+ Moments(torque,bending):     3.2895553E-13      2.378488    
+  
+
+ FOR REQUESTED                 (Global Cartesian Coord. System)
+    NODES         FX         FY         FZ         MX         MY         MZ
+ Total React. 0.1490E-05 0.2036E+02 -.4338E+03 0.0000E+00 0.0000E+00 0.0000E+00
+  
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     35049
+  MAX.     0.34184E+08
+
+
+
+   E R R O R    E S T I M A T I O N
+   (for requested elements)
+
+   Total Strain Energy (TSE)        =  0.113047E-02
+   Total Error Energy (TEE)         =  0.513539E-04
+   Ave. Percentage Error (APE)      =  0.149027E+02
+     ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
+
+   SOLVER TYPE ACTUALLY USED . . . . . . . . . .(FISOL)  =           5
+      EQ. 0, DIRECT SPARSE SOLVER                         
+      EQ. 1, DIRECT SKYLINE SOLVER                        
+      EQ. 2, ITERATIVE SOLVER                             
+      EQ. 3, EXPLICIT INTEGRATION                         
+      EQ. 4, LARGE PROBLEM DIRECT SPARSE SOLVER           
+      EQ. 5, INTEL DIRECT SPARSE SOLVER                   
+      EQ. 6, INTEL NETWORK SPARSE SOLVER                  
+
+
+
+
+********************************************************************************
+   MFLOP Rate of Matrix Decomposition . . . . . . . (MF/Sec)=       0.0
+********************************************************************************
+
+
+                             S O L U T I O N    T I M E   L O G    I N    S E C O N D S
+  DEFINITIONS
+     INP_PHASE=TIME FOR INPUT PHASE
+     STF_PHASE=TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX
+     REN_PHASE=TIME FOR REORDERING EQUATIONS
+     SOL_PHASE=TIME FOR INTEL DIRECT SPARSE SOLUTION
+     CNT_PHASE=TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS
+     REC_PHASE=TIME FOR REACTION FORCE & DISP UPDATE TO POST
+     STS_PHASE=TIME FOR STRESS CALCULATION
+     LCS_PHASE=TIME FOR LOAD CASE SOLUTIONS
+     TOT_TIME =TOTAL SOLUTION TIME
+
+          INP_PHASE STF_PHASE REN_PHASE SOL_PHASE CNT_PHASE REC_PHASE STS_PHASE LCS_PHASE  TOT_TIME 
+                  3         3        13         6         0         1         0         0        34
+                                                      (   0: 0:34)
+
+
+
+   MAXIMUM MEMORY USED IN MEGABYTES . . . . . . (MAXMB)  =         727
+

@@ -1,0 +1,16 @@
+[StartTime]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=33s
+[SolverState]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=2
+[MainFrame]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMGCAAAAAMKBAAAAAENDAAAAAPHCAAAAA
+[ShowMin]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=No
+[SolverType]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=Linear Analysis
+[StudyType]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=0
+[StudyName]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=Static 2 from [Holding Simulation]
+[Solver]
+Robust_Hand-Static 2 from [Holding Simulation].MFC=Sparse
